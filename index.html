@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaceship</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" data-container>
+        <div class="spaceship" data-spaceship></div>
+        <section class="information">
+            <article class="information__content" data-score>Score: 0</article>
+            <article class="information__content" data-lives>Lives: 3</article>
+        </section>
+        <div class="modal hide" data-modal>
+            <div class="modal__content">
+                <p class="modal__text" data-score-info>
+                    You loose! Start new game!
+                </p>
+                <button class="modal__button" data-button>New game</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./js/Game.js"></script>
+</body>
+</html>
